@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80vw;
+    margin:0 auto;
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 10;
+    background-color: rgb(236, 226, 226);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    margin-top: 10vw;
+    text-align: center;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+.btn_twit {
+    border:none;
+    padding: 12px 28px;
+    border-radius: 12px;
+    background-color: #008CBA;
+    color:#ffffff
+}
+.head-img{
+    width: 80vw;
+    height: 250px;
+    
+    right:0;
+}
+.head-img img{
+    width: 75%;
+    height: 300px;
+}
+.header-profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+ .profile{
+  
+
+
+}
+.profile {
+   width: 100px;
+   height: 100px;
+   border-radius:50%;
+    
+    
+   
+}
+#editProfile{
+    border:1px solid black;
+min-height: 36px;
+padding: 0 36px;
+background:none;
+border-radius:20px;
+
+
+}
